@@ -1,0 +1,30 @@
+div.pish{
+    width: 100%;
+    height: 260px;
+}
+
+div.pish>div{
+    display: inline-block;
+    width: 24%;
+    padding-top: 15px;
+}
+
+div.pish>div>img{
+    width: 90%;
+    border-radius: 20px;
+}
+
+div.titr{
+    width: 100%;
+    padding:50px;
+    text-align: center;
+}
+
+div.titr>p{
+    font-family: BYekan;
+    font-size: 22px;
+}
+
+div.pish:hover{
+    cursor: pointer;
+}

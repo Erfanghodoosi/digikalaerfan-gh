@@ -1,0 +1,14 @@
+div.digiplus{
+    width: 100%;
+    height: 290px;
+    background-color: lightslategray;
+    text-align: center;
+    margin-top: 30px;
+}
+
+div.digiplus>div{
+    width: 80%;
+    background-color: black;
+    height: inherit;
+    display: inline-block;
+}

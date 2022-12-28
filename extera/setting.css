@@ -1,0 +1,22 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: BYekan;
+    src: url(../fonts/iranyekan.woff2);
+}
+
+div.wrapper{
+    width: 100%;
+}
+
+@font-face {
+    font-family:BYekan2 ;
+    src: url(../fonts/iranyekanwebextrabold.9346e9a2.woff);
+}

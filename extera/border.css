@@ -1,0 +1,63 @@
+div.neveshte{
+    width: 100%;
+    text-align: center;
+    padding-bottom:50px;
+}
+
+div.neveshte>p{
+    font-family: BYekan;
+    font-size: 22px;
+}
+
+div.border{
+    width: 100%;
+    height: 390px;
+    text-align: center;
+    display: inline-block;;
+}
+
+div.border>div.asli{
+    width: 90%;
+    height: 160px;
+   display: inline-block;
+}
+
+
+div.border>div.asli>div.top,div.border>div.asli>div.butoom{
+    width: 100%;
+    height:inherit;
+    display: inline-block;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+div.border>div.asli>div.top>div,div.border>div.asli>div.butoom>div{
+    width: 14%;
+    display: inline-block;
+    border-right: 2px solid whitesmoke;
+    
+}
+
+div.border>div.asli>div.top>div>img,div.border>div.asli>div.butoom>div>img{
+   width: 125px;
+   height: 125px;
+   border-radius: 50%;
+   background-color: whitesmoke;
+   padding: 10px;
+}
+
+div.border>div.asli>div.top>div>p,div.border>div.asli>div.butoom>div>p{
+    font-family: BYekan;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+div.border>div.asli>div.top,div.border>div.asli>div.butoom:hover{
+ cursor: pointer;
+}
+
+div.border>div.asli>div.top,div.border>div.asli>div.butoom>div.br{
+    border-right: none;
+}
+
+ 
